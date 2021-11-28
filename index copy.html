@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxis JS</title>
+</head>
+<body>
+    <main>
+      <Header class="cabecera">  
+        <h1>Sintaxis de Javascript</h1>
+        <img
+          src="https://media.istockphoto.com/photos/binary-code-impact-picture-id136300536?b=1&k=20&m=136300536&s=170667a&w=0&h=vu6qGJzSFmrLaDJhRSphaVPyvt46bVQfwobtjxQ6sz8="
+          alt="pancake"
+          width="250"
+        />
+      </Header>
+      <section>
+        <h2 id="topicos">Topicos</h2>
+        <ol>
+          <li>Tipos de variables</li>
+          <li>Condiciones</li>
+          <li>Ciclos</li>
+          <li>Funciones</li>
+          <li>Ejemplo</li>
+        </ol>
+        <article>
+            <h3>Tipos de variables</h3>
+            <ul>
+                <li>string</li>
+                <li>number</li>
+                <li>boolean</li>
+                <li>null</li>
+                <li>colecciones</li>
+                <li>objetos</li>
+                <li>funciones</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Condiciones</h3>
+            <p>
+                Es una instrucción o grupo de instrucciones que se pueden ejecutar o no en función del valor de una condición.
+            </p>
+        </article>
+        <article>
+            <h3>Ciclos</h3>
+            <p>
+                Es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de cumplirse. Los tres bucles más utilizados en programación son el bucle while, el bucle for y el bucle do-while.
+            </p>
+        </article>
+        <article>    
+            <h3>Funciones</h3>
+            <p>
+                Una función es una sección de un programa que calcula un valor de manera independiente al resto del programa. ... el código de la función, que son las operaciones que hace la función; y. el resultado (o valor de retorno), que es el valor final que entrega la función.
+            </p>
+        </article>
+        <article>
+            <h3>Ejemplo de codigo en JS</h3>
+            <pre>
+            <code>
+                function confirmacion() {
+                    var pregunta = confirm("¿Deseas visitar la página principal?")
+                    if (pregunta){
+                        alert("Te envío allí rápidamente")
+                        window.location = "https://norfipc.com/";
+                    }
+                    else{
+                        alert("Quizás en otro momento...\n Gracias de todas formas")
+                    }
+                }
+            </code>
+            </pre>   
+        </article> 
+      </section>  
+    </main>
+    <hr>
+    <footer>
+        <h6 id="subscribe">Suscribirse</h6>
+        <form >
+          <input type="text" placeholder="Ingrese Email" />
+          <button>Enviar</button>
+        </form>
+        <br />
+        <div>&copy; Daniel Vera en UNEMI.com</div>
+    </footer>
+    
+</body>
+</html>

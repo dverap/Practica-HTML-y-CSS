@@ -1,0 +1,78 @@
+:root{
+    --color-principal: #000;
+    --color-secondario: tomato;
+}
+*{
+  color: #fff;
+}
+#titulo{
+    text-align: center;
+}
+.imagen{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    border:1px solid #fff;
+    border-radius: 20px;
+}
+h1,h2,h3 {
+    color: var(--color-secondario);
+}
+section ol, article ul{
+    background-color: grey;
+}
+article > p {
+   background-color: #fff;
+   color: var(--color-principal);
+   font-weight: bold;
+}
+code span{
+   color: var(--color-secondario);
+}
+.js{
+    margin-top: 0px;
+    background-color: rgb(77, 74, 74);
+    display: block;
+}
+#titulojs{
+  text-align: center;  
+    
+}
+div + div{
+    color:var(--color-secondario);
+}
+li:nth-child(even){
+    background-color: var(--color-secondario);
+}
+li:nth-child(odd){
+    background-color: tan;
+}
+li:nth-child(3){
+    color:blue;
+}
+.pie{
+    background-color: rgb(159, 196, 197);
+   
+}
+.formulario{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ 
+}
+button{
+  margin: 10px;
+  padding: 2px 10px;  
+  color:var(--color-secondario);
+  font-size: 16px;
+  border: 1px solid var(--color-secondario);
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+}
+button:hover{
+    background-color: var(--color-secondario);
+    color:var(--color-principal)
+}
